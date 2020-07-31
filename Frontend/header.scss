@@ -1,0 +1,25 @@
+*{
+    text-decoration: none;
+}
+header{
+    background-color: #2b2c34;
+    color: #fffffe;
+    nav a{
+        color: #fffffe;
+        transition: 0.3s;
+        &:hover{
+            text-decoration: none;
+            color: #e45858;
+        }
+    }
+}
+main{
+    background-color: #d1d1e9;
+    .photo{
+        img{
+            width: 100%;
+            border-radius: 50%;
+            box-shadow: 0 0 15px lightcoral;
+        }
+    }
+}

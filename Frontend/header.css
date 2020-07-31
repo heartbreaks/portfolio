@@ -1,0 +1,31 @@
+* {
+  text-decoration: none;
+}
+
+header {
+  background-color: #2b2c34;
+  color: #fffffe;
+}
+
+header nav a {
+  color: #fffffe;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header nav a:hover {
+  text-decoration: none;
+  color: #e45858;
+}
+
+main {
+  background-color: #d1d1e9;
+}
+
+main .photo img {
+  width: 100%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 15px lightcoral;
+          box-shadow: 0 0 15px lightcoral;
+}
+/*# sourceMappingURL=header.css.map */
