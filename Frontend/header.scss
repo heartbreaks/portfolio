@@ -1,25 +1,39 @@
+$background: #fffffe;
+$links: #e45858;
+$cardBg: #2b2c34;
 *{
     text-decoration: none;
 }
 header{
-    background-color: #2b2c34;
-    color: #fffffe;
+    background-color: $cardBg;
+    color: $background;
     nav a{
-        color: #fffffe;
+        color: $background;
         transition: 0.3s;
         &:hover{
             text-decoration: none;
-            color: #e45858;
+            color: $links;
         }
     }
 }
-main{
+#info{
     background-color: #d1d1e9;
     .photo{
         img{
             width: 100%;
             border-radius: 50%;
-            box-shadow: 0 0 15px lightcoral;
+            box-shadow: 0 0 15px rgb(122, 122, 122);
         }
     }
+}
+
+.video{
+    border: 2px solid red;
+}
+#links{
+    background-color: $cardBg;
+    color: $links;
+   h2{
+       
+   }
 }
