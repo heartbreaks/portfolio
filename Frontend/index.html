@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="/portfolio/Frontend/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <title>Sergey Khokhlov</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
                 <a href="">Info</a>
                 <a href="">About</a>
                 <a href="">Links</a>
-                <a href="">Projects</a>
+                <a href="#projects">Projects</a>
                 <a href="">Skills</a>
                 <a href="">Web Skills</a>
                 <button class="d-none btn btn-danger d-md-flex">sadsad</button>
@@ -25,9 +26,9 @@
         </div>
     </header>
     <main class="container-md">
-        <div id="info" class="container card">
+        <div id="info" class="col">
             <div class="row">
-                <div id='text' class="col-md-8 p-2">
+                <div id='text' class="col-md-8">
                     <h1>About me</h1>
                     <span>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur facilis 
@@ -57,7 +58,7 @@
             <div class="video col-md-6">
             
             </div>
-            <div class="text col-md-6">
+            <div class="text col-md-6 mt-2">
                 <h1>Favourite music video(?)</h1>
                 <span>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque fuga consequatur nisi. Earum dignissimos vero quis voluptatem, distinctio debitis magnam ipsam, quod porro sapiente commodi illum architecto sit, facere eligendi. Saepe, praesentium labore ullam illo explicabo architecto? Consequuntur voluptate dicta vero voluptatem suscipit neque placeat nesciunt. Odit exercitationem sit corporis fugiat molestiae, ut magni ratione voluptates dignissimos. Eaque vero quae facilis eos sit adipisci, omnis ab doloremque magni earum dicta veniam harum et minima vel laboriosam. Officiis a blanditiis tempore et. Alias repudiandae eveniet nisi consequatur dolores esse vel eius fuga, voluptatibus neque, commodi quod ipsam, incidunt deserunt. Placeat, aut?
@@ -65,14 +66,103 @@
             </div>
         </div>
         <div  class="col-md-10 mt-4 p-2 container">
-            <div id='links' class="row p-2">
+            <div id='links' class="row p-2 d-flex justify-content-around align-items-center">
                 <h2>Links</h2>
-                <a href=""><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
+                <a href="https://steamcommunity.com/id/thepalite/">
+                    <i class="fab fa-steam"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-vk"></i>
+                </a>
+                <a id="git" href="https://github.com/heartbreaks">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-spotify"></i>
+                </a>
+                <a href="" id="human">
+                    <i class="fas fa-street-view"></i>
+                </a>
             </div>
             
         </div>
+        <div id="cardsWebSkills" class="col">
+            <h2>Web Skills</h2>
+            <div class="row cards ">
+                <div class="col">
+                    <div class="card1 p-2 card mb-4">
+                        <h2>HTML</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, tenetur facilis vero, odio quasi non alias quo quis porro beatae accusamus quibusdam repellat assumenda molestiae ratione quam! Praesentium neque in pariatur, dignissimos veritatis tempora illum obcaecati atque eius? Amet, maiores voluptate enim autem laboriosam atque dolore numquam perspiciatis asperiores earum!
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card2 p-2 card mb-4">
+                        <h2>CSS</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quis fuga! Dolor, repellendus pariatur perspiciatis quidem fuga veniam nemo ipsum sed, aliquam asperiores laudantium exercitationem aut culpa earum repudiandae, voluptas eos recusandae natus cum sapiente dolorum! Itaque reprehenderit, illum eaque at repellendus nihil dolorum veniam laborum nesciunt eligendi earum.
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card3 p-2 card mb-4">
+                        <h2>Bootstrap</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod veniam officia alias enim. Odit porro excepturi assumenda! Ad quae cum quas nesciunt non, voluptatem dolores, accusamus debitis iste odit deserunt, quam ratione consequuntur molestias quis ex laudantium sequi voluptas saepe! Facere maxime quam esse alias similique eligendi voluptatem eius.
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card4 p-2 card mb-4">
+                        <h2>JavaScript</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim explicabo harum fugiat quibusdam, modi repellat labore expedita eius. Necessitatibus inventore sunt assumenda! Consequuntur nesciunt totam harum tempore laudantium magnam. Quas a porro quos necessitatibus obcaecati sed dignissimos aut, assumenda rem itaque animi error architecto reiciendis repudiandae, repellat fugit quibusdam. Facere.
+                    </div>
+                </div>
+            </div>
+            <div class="row cards">
+                <div class="col">
+                    <div class="card5 p-2 card mb-4">
+                        <h2>Vue(?)</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, tenetur facilis vero, odio quasi non alias quo quis porro beatae accusamus quibusdam repellat assumenda molestiae ratione quam! Praesentium neque in pariatur, dignissimos veritatis tempora illum obcaecati atque eius? Amet, maiores voluptate enim autem laboriosam atque dolore numquam perspiciatis asperiores earum!
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card6 p-2 card mb-4">
+                        <h2>PHP</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quis fuga! Dolor, repellendus pariatur perspiciatis quidem fuga veniam nemo ipsum sed, aliquam asperiores laudantium exercitationem aut culpa earum repudiandae, voluptas eos recusandae natus cum sapiente dolorum! Itaque reprehenderit, illum eaque at repellendus nihil dolorum veniam laborum nesciunt eligendi earum.
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card7 p-2 card mb-4">
+                        <h2>MySQL</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod veniam officia alias enim. Odit porro excepturi assumenda! Ad quae cum quas nesciunt non, voluptatem dolores, accusamus debitis iste odit deserunt, quam ratione consequuntur molestias quis ex laudantium sequi voluptas saepe! Facere maxime quam esse alias similique eligendi voluptatem eius.
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card8 p-2 card mb-4">
+                        <h2>Photoshop</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim explicabo harum fugiat quibusdam, modi repellat labore expedita eius. Necessitatibus inventore sunt assumenda! Consequuntur nesciunt totam harum tempore laudantium magnam. Quas a porro quos necessitatibus obcaecati sed dignissimos aut, assumenda rem itaque animi error architecto reiciendis repudiandae, repellat fugit quibusdam. Facere.
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="projects" class="col mb-2">
+            <h2>Projects</h2>
 
+            <div class="row">
+                <div id="projectsText" class="col-md-7">
+                    <h2>Coronaway</h2>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam maxime accusamus iure alias, delectus reprehenderit eaque optio est magni sequi tempora temporibus? Culpa minima adipisci provident. Nostrum, explicabo, error excepturi corrupti quos unde necessitatibus ex perspiciatis voluptatum dolor eum nobis nemo sed. Magnam distinctio animi modi exercitationem delectus eius vel atque. Nulla ut, consequatur expedita at quae magnam obcaecati possimus sapiente cumque atque voluptatem aut minus maiores quaerat deserunt distinctio aliquam necessitatibus. Eaque dolorem nisi ea similique ab odit ullam quis totam cum sit quidem rerum quaerat reprehenderit beatae, vel, obcaecati accusantium dolores maxime nostrum. Eveniet id nesciunt labore a quae quam placeat perspiciatis ipsam ex deleniti delectus, sit, nulla non nisi dolorem obcaecati laboriosam atque porro eligendi similique? Asperiores illum cumque reiciendis hic! Repudiandae quo consequuntur laborum et nisi, molestias voluptates voluptatum enim ad! Ducimus eveniet obcaecati harum! Beatae tempore atque vel nisi, voluptates obcaecati natus quae mollitia corporis labore corrupti eos nemo rerum porro! Ea expedita odio beatae porro provident neque optio architecto repellendus, eveniet aperiam voluptatum quia asperiores sed magni, ipsam, non corporis aliquam maxime placeat culpa! Eum voluptatum nobis officia odio error! Necessitatibus deleniti culpa nam. Aut, ipsam impedit recusandae error eum mollitia. Hic, praesentium et?
+                </div>
+                <div id="projectsPhoto" class="col-md-5">
+                   
+                </div>
+            </div>
+        </div>      
+        <div class="col-12">
+            <div id="cara" class="posts row"> 
+            </div>
+        </div>
     </main>
-    <script src="/portfolio/scripts/script.js"></script>
+    <script type='module'src="/portfolio/scripts/script.js"></script>
 </body>
 </html>

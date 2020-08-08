@@ -1,5 +1,6 @@
 * {
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -15,26 +16,98 @@ header nav a {
 
 header nav a:hover {
   text-decoration: none;
+  color: #6246ea;
+}
+
+main h2 {
   color: #e45858;
 }
 
-#info {
+main .postCards {
+  -webkit-box-shadow: 0 0 5px gray;
+          box-shadow: 0 0 5px gray;
   background-color: #d1d1e9;
 }
 
-#info .photo img {
+main #info {
+  background-color: #d1d1e9;
+}
+
+main #info span {
+  color: #2b2c34;
+}
+
+main #info .photo img {
   width: 100%;
   border-radius: 50%;
   -webkit-box-shadow: 0 0 15px #7a7a7a;
           box-shadow: 0 0 15px #7a7a7a;
 }
 
-.video {
+main .video {
   border: 2px solid red;
 }
 
-#links {
+main #links {
   background-color: #2b2c34;
-  color: #e45858;
+  color: #6246ea;
+}
+
+main #links a i {
+  text-decoration: none;
+  color: #6246ea;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+main #links a i:hover {
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+}
+
+main .cards .card1 {
+  background-color: #d1d1e9;
+}
+
+main .cards .card2 {
+  background-color: #d1d1e9;
+}
+
+main .cards .card3 {
+  background-color: #d1d1e9;
+}
+
+main .cards .card4 {
+  background-color: #d1d1e9;
+}
+
+main .cards .card5 {
+  background-color: #d1d1e9;
+}
+
+main .cards .card6 {
+  background-color: #d1d1e9;
+}
+
+main .cards .card7 {
+  background-color: #d1d1e9;
+}
+
+main .cards .card8 {
+  background-color: #d1d1e9;
+}
+
+main #projects #projectsPhoto {
+  background-image: url(/portfolio/img/me.jpg);
+  background-size: 100%;
+}
+
+.box {
+  width: 75px;
+  height: 75px;
+  background-color: purple;
+  margin: 5px;
 }
 /*# sourceMappingURL=header.css.map */

@@ -1,11 +1,13 @@
 $background: #fffffe;
-$links: #e45858;
-$cardBg: #2b2c34;
+$links: #6246ea;
+$cardBg: #d1d1e9;
+$fontColor: #2b2c34;
 *{
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 header{
-    background-color: $cardBg;
+    background-color: $fontColor;
     color: $background;
     nav a{
         color: $background;
@@ -16,8 +18,21 @@ header{
         }
     }
 }
+main{
+    h2{
+        color: #e45858;
+    }
+    .postCards{
+        box-shadow: 0 0 5px gray;
+        background-color: $cardBg;
+    }
+
 #info{
-    background-color: #d1d1e9;
+    background-color: $cardBg;
+    
+    span{
+        color: $fontColor;
+    }
     .photo{
         img{
             width: 100%;
@@ -31,9 +46,57 @@ header{
     border: 2px solid red;
 }
 #links{
-    background-color: $cardBg;
+    background-color: $fontColor;
     color: $links;
-   h2{
-       
+   & a i{
+    text-decoration: none;
+    color: $links;
+    transition: 0.3s;
+    transform: scale(1.5);
+    &:hover{
+        transform: scale(2.5);
+    }
    }
+}
+.cards{
+    .card1{
+        background-color: $cardBg;
+    }
+    .card2{
+        background-color: $cardBg;
+    }
+    .card3{
+        background-color: $cardBg;
+    }
+    .card4{
+        background-color: $cardBg;
+    }
+    .card5{
+        background-color: $cardBg;
+    }
+    .card6{
+        background-color: $cardBg;
+    }
+    .card7{
+        background-color: $cardBg;
+    }
+    .card8{
+        background-color: $cardBg;
+    }
+
+    
+}
+#projects{
+    #projectsPhoto{
+        background-image: url(/portfolio/img/me.jpg);
+        background-size: 100%;
+    }
+}
+}
+
+.box{
+    width: 75px;
+    height: 75px;
+    background-color: purple;
+    margin: 5px;
 }
