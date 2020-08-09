@@ -99,6 +99,16 @@ main .cards .card8 {
   background-color: #d1d1e9;
 }
 
+main #projects #coronaway {
+  background-color: #d1d1e9;
+  color: #2b2c34;
+}
+
+main #projects #buses {
+  background-color: #d1d1e9;
+  color: #2b2c34;
+}
+
 main #projects #projectsPhoto {
   background-image: url(/portfolio/img/me.jpg);
   background-size: 100%;

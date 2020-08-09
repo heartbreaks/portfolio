@@ -87,6 +87,15 @@ main{
     
 }
 #projects{
+
+    #coronaway{
+        background-color: $cardBg;
+        color: $fontColor;
+    }
+    #buses{
+        background-color: $cardBg;
+        color: $fontColor;
+    }
     #projectsPhoto{
         background-image: url(/portfolio/img/me.jpg);
         background-size: 100%;
