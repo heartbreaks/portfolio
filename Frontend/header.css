@@ -37,6 +37,10 @@ main #info span {
   color: #2b2c34;
 }
 
+main #info .photo {
+  position: relative;
+}
+
 main #info .photo img {
   width: 100%;
   border-radius: 50%;

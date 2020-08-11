@@ -34,10 +34,10 @@ main{
         color: $fontColor;
     }
     .photo{
+        position: relative;
         img{
             width: 100%;
             border-radius: 50%;
-            
         }
     }
 }
