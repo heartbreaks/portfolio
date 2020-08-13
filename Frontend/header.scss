@@ -1,111 +1,95 @@
+@import 'keyframes';
+
 $background: #fffffe;
 $links: #6246ea;
 $cardBg: #d1d1e9;
 $fontColor: #2b2c34;
-*{
-    text-decoration: none;
-    scroll-behavior: smooth;
+* {
+  text-decoration: none;
+  scroll-behavior: smooth;
 }
-header{
-    background-color: $fontColor;
+header {
+  background-color: $fontColor;
+  color: $background;
+  nav a {
     color: $background;
-    nav a{
-        color: $background;
-        transition: 0.3s;
-        &:hover{
-            text-decoration: none;
-            color: $links;
-        }
+    transition: 0.3s;
+    &:hover {
+      text-decoration: none;
+      color: $links;
     }
+  }
 }
-main{
-    h2{
-        color: #e45858;
-    }
-    .postCards{
-        box-shadow: 0 0 5px gray;
-        background-color: $cardBg;
-    }
-
-#info{
+main {
+  h2 {
+    color: #e45858;
+  }
+  .postCards {
+    box-shadow: 0 0 5px gray;
     background-color: $cardBg;
-    
-    span{
-        color: $fontColor;
-    }
-    .photo{
-        position: relative;
-        img{
-            width: 100%;
-            border-radius: 50%;
-        }
-    }
-}
+  }
 
-.video{
+  #info {
+    background-color: $cardBg;
+
+    span {
+      color: $fontColor;
+    }
+    .photo {
+      position: relative;
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .video {
     border: 2px solid red;
-}
-#links{
+  }
+  #links {
     background-color: $fontColor;
     color: $links;
-   & a i{
-    text-decoration: none;
-    color: $links;
-    transition: 0.3s;
-    transform: scale(1.5);
-    &:hover{
+    & a i {
+      text-decoration: none;
+      color: $links;
+      transition: 0.3s;
+      transform: scale(1.5);
+      &:hover {
         transform: scale(2.5);
+      }
     }
-   }
-}
-.cards{
-    .card1{
-        background-color: $cardBg;
+  }
+  .cards {
+    .card {
+      background-color: $fontColor;
+      color: $cardBg;
+      text-align: center;
+      object {
+        margin: 0 auto;
+        animation: anim_icons 4s infinite alternate ease-out;
+      }
     }
-    .card2{
-        background-color: $cardBg;
+  }
+  #projects {
+    #coronaway {
+      background-color: $cardBg;
+      color: $fontColor;
     }
-    .card3{
-        background-color: $cardBg;
+    #buses {
+      background-color: $cardBg;
+      color: $fontColor;
     }
-    .card4{
-        background-color: $cardBg;
+    #projectsPhoto {
+      background-image: url(/portfolio/img/me.jpg);
+      background-size: 100%;
     }
-    .card5{
-        background-color: $cardBg;
-    }
-    .card6{
-        background-color: $cardBg;
-    }
-    .card7{
-        background-color: $cardBg;
-    }
-    .card8{
-        background-color: $cardBg;
-    }
-
-    
-}
-#projects{
-
-    #coronaway{
-        background-color: $cardBg;
-        color: $fontColor;
-    }
-    #buses{
-        background-color: $cardBg;
-        color: $fontColor;
-    }
-    #projectsPhoto{
-        background-image: url(/portfolio/img/me.jpg);
-        background-size: 100%;
-    }
-}
+  }
 }
 
-.box{
-    width: 75px;
-    height: 75px;
-    background-color: purple;
-    margin: 5px;
+.box {
+  width: 75px;
+  height: 75px;
+  background-color: purple;
+  margin: 5px;
 }
